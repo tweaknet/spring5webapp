@@ -24,7 +24,7 @@ public class BootStrapData implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-
+/*
         Author eric = new Author("Eric", "Evans");
         Book ddd = new Book("Domain Driven Design", "12345");
         eric.getBooks().add(ddd);
@@ -51,6 +51,6 @@ public class BootStrapData implements CommandLineRunner {
         System.out.println("Started in Bootstrap");
         System.out.println("Number of books: " + bookRepository.count());
         System.out.println(publisherRepository.count());
-        System.out.println("wydawca: " + korona.getBooks().size());
+        System.out.println("wydawca: " + korona.getBooks().size());*/
     }
 }
